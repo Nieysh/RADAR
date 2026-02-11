@@ -30,11 +30,13 @@ cd RADAR
 ```
 conda create -n llava python=3.10 -y
 conda activate llava
+pip install -r requirements.txt
 python -m pip install --upgrade pip  # enable PEP 660 support
 cd LLaVA-NeXT
 python -m pip install -e .
 pip install git+https://github.com/huggingface/transformers@745bbfe4bb2b61491dedd56e1e8ee4af8ef1a9ec
 pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+conda install nvidia/label/cuda-12.1.1::cuda --channel nvidia/label/cuda-12.1.1
 ```
 
 To evaluate other MLLMs for reproduction, please refer to [Qwen2-VL](https://github.com/xwjim/Qwen2-VL?tab=readme-ov-file#quickstart), [InternVL-3.5](https://internvl.readthedocs.io/en/latest/get_started/installation.html) for environment installation.
@@ -60,7 +62,7 @@ For other models, refer to their huggingface respositories for downloading the p
 | Qwen2-VL-7B                | [🤗 link](https://huggingface.co/Qwen/Qwen2-VL-7B)                     |
 
 
-4. Download M$^3$-Bench dataset from [here](xx) and unzip it to ```YOUR/PATH/TO/M3-BENCH/DATA```.
+4. Download M$^3$-Bench dataset from [here](https://www.dropbox.com/scl/fi/8fgfhzn3sopq9oo0hfl96/M3-Bench.zip?rlkey=22lg2k3cf1cb6mqt1ziq71o0g&st=wiz0l13b&dl=0) and unzip it to ```YOUR/PATH/TO/M3-BENCH/DATA```.
 
 ### Referenced Data Directory
 ```graphql
