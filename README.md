@@ -85,7 +85,7 @@ YOUR/PATH/TO/M3-BENCH/DATA
 ### 3. Evaluation
 
 To reproduce the RADAR implementation on this codebase, you can follow these steps:
-1. Specify the ```data_dir```, ```dataset``` and ```model_path``` in the script for RADAR calculation. (Also specify ```model_base``` for LLaVA-OneVision projectors)
+1. Specify the ```data_dir```, ```dataset``` and ```model_path``` in the script for RADAR calculation. (Also specify ```model_base``` and ```vision_tower``` for LLaVA-OneVision projectors)
 2. Run the script to conduct RADAR evaluation for different models.
 
 For LLaVA-OneVision (projectors):
