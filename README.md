@@ -1,6 +1,7 @@
 # RADAR: Revealing Asymmetric Development of Abilities in MLLM Pre-training
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)
+[![Arxiv](https://img.shields.io/badge/arXiv-2602.12892-B21A1B)](https://arxiv.org/abs/2602.12892)
 
 This repository provides the official PyTorch implementation of the following paper: 
 > [**RADAR: Revealing Asymmetric Development of Abilities in MLLM Pre-training**] <br>
@@ -11,8 +12,8 @@ This repository provides the official PyTorch implementation of the following pa
 
 ## 👨‍💻 Todo
 
-- [ ] Release the M$^3$-Bench dataset
-- [ ] Release the evaluation code of RADAR
+- [x] Release the M$^3$-Bench dataset
+- [x] Release the evaluation code of RADAR
 
 
 ## ⭐️ TL;DR
@@ -106,25 +107,13 @@ bash radar_eval_internvl3_5.sh
 ## Acknowledgement
 This repo is based on the codebase of [LLaVA](https://github.com/haotian-liu/LLaVA), [Qwen2-VL](https://github.com/xwjim/Qwen2-VL?tab=readme-ov-file#quickstart), and [InternVL-3.5](https://internvl.readthedocs.io/en/latest/get_started/installation.html). Thanks for their impressive works!
 
-
-[//]: # (## Citation)
-
-[//]: # (If you find this work useful for your research, please cite our paper:)
-
-[//]: # (```)
-
-[//]: # (@article{huang2024deciphering,)
-
-[//]: # (  title={Deciphering Cross-Modal Alignment in Large Vision-Language Models with Modality Integration Rate},)
-
-[//]: # (  author={Huang, Qidong and Dong, Xiaoyi and Zhang, Pan and Zang, Yuhang and Cao, Yuhang and Wang, Jiaqi and Lin, Dahua and Zhang, Weiming and Yu, Nenghai},)
-
-[//]: # (  journal={arXiv preprint arXiv:2410.07167},)
-
-[//]: # (  year={2024})
-
-[//]: # (})
-
-[//]: # (```)
-
-
+## Citation
+If you find this work useful for your research, please cite our paper:
+```
+@article{nie2026radar,
+  title={RADAR: Revealing Asymmetric Development of Abilities in MLLM Pre-training},
+  author={Nie, Yunshuang and Lin, Bingqian and Niu, Minzhe and Xiang, Kun and Han, Jianhua and Huang, Guowei and Quan, Xingyue and Xu, Hang and Chen, Bokui and Liang, Xiaodan},
+  journal={arXiv preprint arXiv:2602.12892},
+  year={2026}
+}
+```
