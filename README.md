@@ -4,7 +4,7 @@
 [![Arxiv](https://img.shields.io/badge/arXiv-2602.12892-B21A1B)](https://arxiv.org/abs/2602.12892)
 
 This repository provides the official PyTorch implementation of the following paper: 
-> [**RADAR: Revealing Asymmetric Development of Abilities in MLLM Pre-training**] <br>
+> [**Deciphering Cross-Modal Alignment in Large Vision-Language Models with Modality Integration Rate**](https://arxiv.org/abs/2602.12892) <br>
 
 ## 🎯 News
 
